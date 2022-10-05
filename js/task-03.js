@@ -20,5 +20,3 @@ console.log(listRefImage);
 
 listRef.insertAdjacentHTML('beforeend', listRefImage);
 
-// const imgRef = document.querySelectorAll(`.picture`);
-// const itemRef = document.querySelectorAll(`gallery_item`);

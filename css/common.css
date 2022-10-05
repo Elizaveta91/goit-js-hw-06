@@ -24,8 +24,18 @@ button {
 }
 
 .gallery_item {
-  flex-direction: row; 
-  flex-wrap: no-wrap; 
-  align-items: stretch; 
-  justify-content: flex-start;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  align-items: baseline;
 }
+
+.gallery_item li:not(:last-child) {
+  margin-right: 20px;
+}
+
+.gallery_item img {
+  width: 500px;
+  height: 300px;
+}
+
